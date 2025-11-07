@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>시계 - nevericx </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="battery">🔋 100%</div>
+    <div id="clock">00:00:00</div>
+
+    <div class="alarm-section">
+      <h2>⏰ 알람 설정</h2>
+      <div class="inputs">
+        <input type="number" id="hour" placeholder="시" min="0" max="23">
+        <input type="number" id="minute" placeholder="분" min="0" max="59">
+        <input type="number" id="second" placeholder="초" min="0" max="59">
+        <button id="addAlarm">추가</button>
+      </div>
+
+      <ul id="alarmList"></ul>
+    </div>
+
+    <button id="chargeBattery" class="charge">🔌 배터리 충전</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

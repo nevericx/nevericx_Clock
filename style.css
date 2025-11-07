@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+  color: white;
+  font-family: "Pretendard", sans-serif;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #222;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+#clock {
+  font-size: 3rem;
+  margin: 20px 0;
+  transition: color 0.3s ease;
+}
+
+#battery {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.alarm-section {
+  margin-top: 20px;
+}
+
+.inputs input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  margin: 3px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0088cc;
+}
+
+#alarmList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#alarmList li {
+  margin: 5px 0;
+}
+
+.charge {
+  margin-top: 20px;
+  background-color: #44c767;
+}
+
+.charge:hover {
+  background-color: #36a357;
+}
